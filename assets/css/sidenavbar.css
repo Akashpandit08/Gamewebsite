@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Poppins" , sans-serif;
+  box-sizing: border-box;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-orient: 0;
+    height: 100%;
+    width: 68px;
+    background: #000;
+    color: white;
+    overflow: hidden;
+    /* padding: 6px 14px; */
+    /* z-index: 960; */
+    transition: width 0.2s linear, all 0.5s ease; /* Combining transitions */
+    border-right: 1px solid grey; /* Combining border shorthand property */
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 10%;
+
+}
+
+.logo {
+    /* text-align: center; */
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 0px;
+}
+.side-nav-item {
+ 
+    margin-left: 50px;
+ 
+    /* justify-content: center; */
+}
+.sidebar ul li {
+    list-style-type: none;
+    /* margin: 16%; */
+    display: flex;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+
+}
+.custom-text-logo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 5px;
+    /* letter-spacing: -0.05em; */
+    color: rgba(218, 183, 133, 1);
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.sidebar a {
+    position: relative;
+    color: rgb(240 232 232);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+/* .side-nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+    color: rgb(105, 52, 52);
+    text-decoration-style: none;
+    display: flex;
+    justify-content: center;
+
+
+} */
+a:hover{
+    background-color: rgb(102, 86, 7);
+}
+.sidebar:hover {
+    position: fixed;
+    margin: 0%;
+    top: 0;
+    box-orient: 0;
+    height: 100%;
+    width: 90px;
+    /* background: white; */
+    color: white;
+    overflow: hidden;
+    padding: 6px 14px;
+    z-index: 100;
+    transition: width 0.2s linear;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+    width: 280px;
+    transition: all 0.8s ease;
+    background: rgb(4 3 3 / 79%);
+    backdrop-filter: blur(6.9px);
+    /* -webkit-backdrop-filter: blur(4.9px); */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.custom-text-logo::after {
+    content: 'GameQuest';
+ 
+}
+
+.custom-text-logo::before {
+    content: 'GQ';
+  
+}
+
+
+/* .custom-text-logo:hover::before {
+    content: 'GQ';
+} */
+
+.logout{
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px){
+    .sidebar{
+       
+   
+}
+}

@@ -1,0 +1,9 @@
+.buy-now-button{
+    color: white;
+    text-transform: capitalize;
+}
+.buy-now-button:hover{
+    color:#e58f28;
+    background-color: white;
+
+}

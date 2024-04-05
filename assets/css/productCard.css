@@ -1,0 +1,104 @@
+.card {
+    margin: 0%;
+    min-width: 0;
+    background-color: #fef3bc;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    height: 383px;
+    width: 329px;
+    border-radius: 12px;
+    padding: 3% 5% 3% 5%;
+}
+.card-last-footer{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.card-last-footer span{
+    width: 30%;
+    font-size: x-large;
+}
+.card-last-footer button {
+    width: 70%;
+    text-align: center;
+    border-radius: 70px;
+    background-color: #e58f28;
+    padding: 3%;
+    border: none;
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.game-info-group{
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+.card-icon {
+    background-color: #3d352a;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    margin-bottom: 3%;
+    display: flex;
+    padding: 1%;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #1eac65;
+    border-radius: 50%;
+    display: inline-block;
+    
+    box-shadow: 1px 1px 1px 4px rgb(38 227 63 / 38%);
+    margin: 3px;
+}
+.game-img{
+    width: 80%;
+    height: 180px;
+}
+.rating>svg{
+    color:orange;
+}
+.rating>i{
+    color:orange;
+}
+.game-info{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:red;
+    text-transform: capitalize;
+}
+.game-name{
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.game-release-info{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.game-price{
+    color:black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+.game-name {
+    color: black!important;
+}
+.card-btn:hover{
+        background: white;
+        color: #e58f28;
+        /* font-size: 5px; */
+        font-weight: 600;
+
+}

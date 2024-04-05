@@ -1,0 +1,392 @@
+@font-face {
+	font-family: 'ALGER';
+	src: local('ALGER'), url('../fonts/algeria/ALGER.woff') format('woff');
+}
+.product-detail-div {
+    width: 1080px;
+    height: 626px;
+    top: 187px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid rgba(222, 218, 218, 0.125);
+    background-color: #342b22;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%, 96% 0);
+}
+.corner {
+    position:relative; /* this one is new - used to contain absolute elements */
+    width: 200px;
+    height: 80px;
+    background-color: #522d5b;
+  }
+  .corner:after {
+    content: "";
+    position:absolute;
+    margin:-20px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    background-color:#dc1919; /* to see where it is */
+  }
+  .corner {
+    /* other styles */
+    overflow:hidden;
+  }
+  .corner:after {
+    /* other styles */
+    box-shadow: 0 0 0 250px #522d5b;
+  }
+  .star-rating-pro{
+    display: flex;
+    justify-content: start;
+    margin: 1%;
+}
+/* .release-pro {
+    position: relative;
+    z-index: 100;
+    margin-left: -52px;
+} */
+.release{
+    margin-top: 3%;
+}
+.releasedatepro {
+    font-size: small;
+    background-color: grey;
+    width: 50%;
+    text-align: start;
+    animation: para 3s 1;
+}
+
+@keyframes para {
+    0%   { margin-left: -860px; top: 0px; }
+}
+
+.product-name {
+    position: relative;
+    font-family: 'ALGER' !important;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 79.18px;
+    text-align: center;
+    width: 50%;
+    color: #ffe3c1;
+    animation: legend 5s 1;
+    /* animation-delay: 5s;  */
+}
+
+@keyframes legend {
+    0%   {opacity: 0; bottom:-100px;}
+    15%   {opacity: 0; bottom:-100px;}
+    50%   {opacity: 0; bottom:-100px;}
+    100% {bottom: 0px; opacity: 1;}
+}
+
+.product-name1 {
+    font-family: 'ALGER' !important;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 79.18px;
+    text-align: center;
+    width: 50%;
+    color: #ffe3c1;
+    animation: legend-fade 7s 1;
+    /* animation-delay: 12s; */
+}
+
+@keyframes legend-fade {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    50%   {opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.pro-details-p{
+    font-family: 'Prosto One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.23px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.cham-upper-heading{
+    font-family: "Aoboshi One", serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37.65px;
+    color: rgba(218, 183, 133, 1);
+}
+.champ-heading{
+    font-family: "Aoboshi One", serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101.36px;
+    letter-spacing: 0.2em;
+    color: rgba(218, 183, 133, 1);
+}
+.pro-info{
+    margin: 8%;
+}
+.container-div{
+    width: 100%;
+    margin: 5%;
+    
+}
+.conercut{
+    width: min-content;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%, 96% 0);
+    background-color: white;
+    padding: 1px;
+
+}
+.leauge{
+    text-align: -webkit-center;
+    margin-top: 10%;
+}
+.releasedatepro {
+    font-size: small;
+    background-color: #0c0b0b;
+    width: 50%;
+    text-align: start;
+ 
+   
+}
+.pro-online{
+    margin: 1%;
+    margin-top: 10%;
+
+}
+.enroll{
+    width:193px;
+    height:18px;
+    top: 651px;
+    left: 624px;
+    gap: 7px;
+    opacity: 0px;
+
+}
+
+.opratingsystempro {
+    margin: 3%;
+    font-size: 176%;
+    margin-left: 10%;
+    color:#d5d3d1;
+    text-align: end;
+    font-weight: 600;
+}
+.gamer-name{
+    font-family: "Aoboshi One", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 72.4px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ffffff;
+
+}
+.game-name {
+    font-family: "Prosto One", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37.05px;
+    /* text-align: left; */
+    text-align: center;
+    color: #ffffff;
+}
+.game-div{
+    width: 560px;
+    height: 540px;
+    padding: 37px 0px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.player-game{
+    display: flex;
+    margin: 10%;
+    
+
+
+}
+.play-now{
+    text-align: center;
+    margin: 1%;
+    margin-top: 3%;
+
+}
+.game-section{
+    background-color: #100d07;
+}
+.card1{
+    margin: 0%;
+    min-width: 0;
+    width: 341px;
+    height: 209px;
+    gap: 0px;
+    background-color: #dab785;
+    border-radius: 10px;
+    padding: 2% 1% 3% 2%;
+}
+.review{
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    /* text-align: left; */
+    color: #0c0b0b;
+    
+    
+}
+.profile {
+    width: 60px;
+    height: 60px;
+    /* background: aqua; */
+    border-radius: 6pc;
+    border: 2px solid rgb(58, 55, 55); /* Add a 2px solid black border */
+}
+
+.prod-flex{
+    display: flex;
+    align-items: center;
+}
+.card-head {
+    border-bottom: 1px solid #6e6e6e;
+    padding: 3%;
+}
+.top-review{
+    font-family:"Poppins", serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 45px;
+/* text-align: center; */
+color: white;
+
+}
+.product-detail-div1{
+    width: 503px;
+    height: 311px;
+    top: 5393px;
+    left: 226px;
+
+    
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid rgba(222, 218, 218, 0.125);
+    background-color: #342b22;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%, 96% 0);
+}
+.start-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.side-line{
+    width: 50px;
+    border: 2px solid rgb(43 43 43);
+    height: 100%;
+}
+.start-le{
+    font-family: "Aoboshi One", serif;
+font-size: 26px;
+font-weight: 400;
+line-height: 37.65px;
+text-align: center;
+color:  rgba(218, 183, 133, 1);
+
+
+}
+.game-titel-le{
+    font-family: "Aoboshi One", serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101.36px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color:  rgba(218, 183, 133, 1);
+    
+
+}
+.con-div{
+    margin-top: 14%;
+}
+.game-detail1 {
+    margin: 3%;
+}
+.btn-div{
+    margin: 3%;
+}
+.section-row {
+    margin: 3%;
+    margin-top: 5%;
+}
+.side-line {
+    width: 73px;
+    border-right: 1px solid #62605b;
+    height: 5425px;
+    position: absolute;
+}
+.section1{
+        margin-left: 6%;
+    
+}
+@media only screen and (max-width: 600px){
+    .product-detail-div {
+        width: 344px;
+        height: 396px;
+        top: 187px;
+        left: 180px;
+        gap: 0px;
+        opacity: 0px;
+        border: 1px solid rgba(222, 218, 218, 0.125);
+        background-color: #342b22;
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%, 96% 0);
+    }
+    .product-name {
+        font-family: 'ALGER' !important;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 58.18px;
+        text-align: center;
+        color: #ffe3c1;
+    }
+    .champ-heading {
+
+        font-size: 39px;
+       
+    }
+    .product-detail-div1 {
+        width: 109px;
+        height: 124px;
+        
+    }
+    .game-titel-le {
+        font-size: 36px;
+       
+    }
+    .top-review {
+        font-family: "Poppins", serif;
+        font-size: 10px;
+        
+    }
+    .gm-store {
+    
+        font-size: 9px;
+        margin-top: 39%;
+    }
+    .game-details-p {
+        font-family: "Prosto One";
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 9.23px;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .con-div {
+        margin-top: 42%;
+    }
+    span{
+        font-size: 10px;
+
+    }
+}

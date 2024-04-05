@@ -1,0 +1,193 @@
+.filter {
+    width: 300px;
+    margin: 1%;
+    padding: 2%;
+    left: 0;
+    top: 0;
+    box-orient: 0;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    background-color: #1e1c1c;
+    box-shadow: 2px 0px 20px 0px;
+    /* border: 1px solid rgba(255, 255, 255, 0.38); */
+    border-radius: 14px;
+}
+
+
+.form-control{
+    border-radius: 70px;
+}
+.filter-popin-label{
+    font-family:  "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+
+}
+.btn-sort {
+    margin-right: 3%;
+    padding: 5px;
+    border-color: 1px solid;
+    border-radius: 70px;
+    border-style: solid;
+    border-width: thin;
+    background-color: none;
+    background: none;
+    color: wheat;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.product-page{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.search-result {
+    display: flex;
+    justify-content: space-between;
+}
+.search-result h5{
+    color: white;
+}
+.sortby{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 18px;
+    height: 18px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: transparent;
+    opacity: 0.5;
+
+}
+.card-com{
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+.filter-Categories{
+    margin-bottom: 5%;
+    
+
+}
+.filter-Platforms{
+    margin-bottom: 5%;
+
+}
+.filter-Type{
+    margin-bottom: 5%;
+
+}
+.filter-Platforms{
+    margin-bottom: 5%;
+}
+.filter-Ratings{
+    margin-bottom: 5%;
+
+}
+.drop-short { 
+    display: none;
+    margin-left: 201px;
+    border-radius: 11px;
+    /* display: flex; */
+    flex-direction: column;
+    margin: 47%;
+    padding: 1%;
+    margin-top: 5%;
+    width: 303px;
+    position: absolute;
+    z-index: 62;
+    background-color: wheat;
+}
+
+.drop-sort-btn {
+    padding: 3%;
+    border-radius: 36px;
+    margin: 1%;
+    background-color: #e58f28;
+    color: white;
+    width: 100%;
+}
+#caret-down{
+display: none;    
+    
+}
+.game-detail-pro-Valorant {
+    margin: 8%;
+    margin-left: 15%;
+}
+.game-detail-pro-Evolution {
+    margin: 10%;
+    margin-left: 32%;
+}
+.game-title-pro {
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 60.14px;
+    
+    height: 70px;
+    color: white;
+    margin-top: 5%;
+    width: -webkit-fill-available;
+}
+.game-detail-pro-Warlords {
+    margin: 3%;
+}
+.item {
+    margin: 1%!important;
+}
+@media only screen and (max-width: 600px){
+    .game-detail-pro-Valorant {
+        margin: 1%;
+        margin-left: 15%;
+    }
+    .game-detail-pro-Evolution {
+        margin: 1%;
+        margin-left: 2%;
+    }
+    .game-title-pro {
+        font-family: "Aoboshi One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 20.14px;
+        
+        height: 30px;
+        color: white;
+        margin-top: 5%;
+        width: -webkit-fill-available;
+    }
+    .game-detail-pro-Warlords {
+        margin: 1%;
+    }
+    .drop-short {
+        display: none;
+        margin-left: 201px;
+        border-radius: 11px;
+        /* display: flex; */
+        flex-direction: column;
+        margin: 9%;
+        padding: 1%;
+        margin-top: 10%;
+        width: 303px;
+        position: absolute;
+        z-index: 62;
+        background-color: wheat;
+    }
+
+}
