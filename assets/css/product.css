@@ -184,7 +184,7 @@
     color: #ffffff;
 
 }
-.game-name {
+.game-play {
     font-family: "Prosto One", serif;
     font-size: 30px;
     font-weight: 400;
@@ -341,6 +341,14 @@ color:  rgba(218, 183, 133, 1);
         background-color: #342b22;
         clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%, 96% 0);
     }
+    .gamer-name {
+        /* font-family: "Aoboshi One", serif; */
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.1em;
+       
+    }
     .product-name {
         font-family: 'ALGER' !important;
         font-size: 17px;
@@ -348,6 +356,19 @@ color:  rgba(218, 183, 133, 1);
         line-height: 58.18px;
         text-align: center;
         color: #ffe3c1;
+    }
+    .game-play {
+        font-family: "Prosto One", serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 37.05px;
+    
+    }
+    .side-line {
+        width: 73px;
+        border-right: 1px solid #62605b;
+        height: 4472px;
+        position: absolute;
     }
     .champ-heading {
 

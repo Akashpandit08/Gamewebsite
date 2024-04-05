@@ -1,5 +1,5 @@
 <nav>
-    <div class="navbar">
+    <div class="navbar" id="nav-b">
     <h3 class="custom-logo">GQ</h3>
         <!-- <li>
                     <a class="side-menu-a" href="" class="logo">
@@ -9,17 +9,17 @@
        
         <div id="allNavItems" class="nav-itemsdiv">
             <ul class="nav-items float-left">
-                <li class="nav-item"><a class="nav-item-a" href="index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-item-a" href="productDetails.php">Game store</a></li>
-               <li class="nav-item"><a class="nav-item-a" href="product.php">Leader board</a></li>
-            
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Game store</li>
+                <li class="nav-item">Leader board</li>
+
 
             </ul>
             <ul class="nav-item-Right float-right">
                  
                 <li class="nav-item"> 
                     <div class="search"><i class="fa-se fa-solid fa-magnifying-glass"></i>
-                    <input class="input-search" type="search" placeholder="What are you looking for?">
+                    <input class="input-search" type="search" placeholder="Search...">
                    </div>  
 
                 <!-- <i class="fa-solid fa-magnifying-glass"></i> -->

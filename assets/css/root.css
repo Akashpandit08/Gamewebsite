@@ -94,21 +94,7 @@ span{
     flex-direction: column;
      width: -webkit-fill-available;;
   }
-  .hero-content p {
-    font-family: 'Prosto One', sans-serif;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 30.23px;
-    width: 710px;
-    animation: para 5s;
-  animation-direction: alternate;
-}
-@keyframes para {
-    0%   { margin-left: -860px; top: 0px; }
-    /* 25%  { margin-left: 200px; top: 0px; } */
-}
+  
 
   .opratingsystem{
   margin: 1%;
@@ -181,4 +167,5 @@ span{
         margin: 0%;
         
     }
+    
 }

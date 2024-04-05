@@ -148,8 +148,8 @@ display: none;
 .game-detail-pro-Warlords {
     margin: 3%;
 }
-.item {
-    margin: 1%!important;
+.product-details-item {
+    margin: 5px;
 }
 @media only screen and (max-width: 600px){
     .game-detail-pro-Valorant {

@@ -60,13 +60,34 @@
     margin: 3%;
     padding-left: 10%;
 }
+.hero-content-p {
+    font-family: 'Prosto One', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.23px;
+    width: 710px;
+    animation: para 5s;
+  animation-direction: alternate;
+}
+@keyframes para {
+    0%   { margin-left: -860px; top: 0px; }
+    /* 25%  { margin-left: 200px; top: 0px; } */
+}
+.sectionhome{
+    background-color: #00000061;
+    padding: 1%;
+    margin-top: 5%;
+
+}
 
 @media only screen and (max-width: 600px){
 
     .buy-now-button {
         background-color: #e58f28;
         color: #fff;
-        padding: 12px 25px;
+        padding: 9px 6px;
         border: none;
         border-radius: 23px;
         cursor: pointer;
@@ -107,5 +128,25 @@
     .container {
         width: 100%;
         margin: 0%;
+    }
+    .hero-content-p {
+        font-family: 'Prosto One', sans-serif;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 9.23px;
+        width: 100%;
+        animation: para 5s;
+        animation-direction: alternate;
+    }
+    .custom-text {
+        font-family: "Press Start 2P", system-ui;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.05em;
+        color: rgba(218, 183, 133, 1);
+        /* width: -webkit-fill-available; */
     }
 }

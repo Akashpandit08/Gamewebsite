@@ -115,6 +115,9 @@ a.nav-item-a {
     div#allNavItems{
         display: none;
     }
+    div#nav-b {
+        justify-content: space-between;
+    }
     #toggleMobile{
         display: flex;
         align-items: center;
@@ -162,6 +165,7 @@ a.nav-item-a {
         align-items: center;
         float: none;
     }
+  
     
     
 }
